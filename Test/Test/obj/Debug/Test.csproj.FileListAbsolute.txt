@@ -1,0 +1,55 @@
+c:\users\zeusm\documents\visual studio 2015\Projects\Test\Test\bin\Debug\Test.exe.config
+C:\Users\zeusm\Documents\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\zeusm\Documents\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.Form1.resources
+C:\Users\zeusm\Documents\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.Properties.Resources.resources
+C:\Users\zeusm\Documents\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+C:\Users\zeusm\Documents\Visual Studio 2015\Projects\Test\Test\bin\Debug\Test.exe
+C:\Users\zeusm\Documents\Visual Studio 2015\Projects\Test\Test\bin\Debug\Test.pdb
+C:\Users\zeusm\Documents\Visual Studio 2015\Projects\Test\Test\bin\Debug\AcroniControls.dll
+C:\Users\zeusm\Documents\Visual Studio 2015\Projects\Test\Test\bin\Debug\AcroniControls.pdb
+C:\Users\zeusm\Documents\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.exe
+C:\Users\zeusm\Documents\Visual Studio 2015\Projects\Test\Test\obj\Debug\Test.pdb
+E:\TCM THINGS\Test\Test\bin\Debug\Test.exe.config
+E:\TCM THINGS\Test\Test\obj\Debug\Test.exe
+E:\TCM THINGS\Test\Test\obj\Debug\Test.pdb
+E:\TCM THINGS\Test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+E:\TCM THINGS\Test\Test\obj\Debug\Test.Form1.resources
+E:\TCM THINGS\Test\Test\obj\Debug\Test.Properties.Resources.resources
+E:\TCM THINGS\Test\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+E:\TCM THINGS\Test\Test\bin\Debug\Test.exe
+E:\TCM THINGS\Test\Test\bin\Debug\Test.pdb
+E:\TCM THINGS\Test\Test\bin\Debug\AcroniControls.dll
+E:\TCM THINGS\Test\Test\bin\Debug\AcroniControls.pdb
+D:\Test\Test\bin\Debug\Test.exe.config
+D:\Test\Test\obj\Debug\Test.exe
+D:\Test\Test\obj\Debug\Test.pdb
+D:\Test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\Test\Test\obj\Debug\Test.Form1.resources
+D:\Test\Test\obj\Debug\Test.Properties.Resources.resources
+D:\Test\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+D:\Test\Test\bin\Debug\Test.exe
+D:\Test\Test\bin\Debug\Test.pdb
+D:\Test\Test\bin\Debug\AcroniControls.dll
+D:\Test\Test\bin\Debug\AcroniControls.pdb
+Z:\Test\Test\bin\Debug\Test.exe.config
+Z:\Test\Test\obj\Debug\Test.exe
+Z:\Test\Test\obj\Debug\Test.pdb
+Z:\Test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+Z:\Test\Test\obj\Debug\Test.Form1.resources
+Z:\Test\Test\obj\Debug\Test.Properties.Resources.resources
+Z:\Test\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+Z:\Test\Test\bin\Debug\Test.exe
+Z:\Test\Test\bin\Debug\Test.pdb
+Z:\Test\Test\bin\Debug\AcroniControls.dll
+Z:\Test\Test\bin\Debug\AcroniControls.pdb
+C:\Nova pasta\Test\Test\bin\Debug\Test.exe.config
+C:\Nova pasta\Test\Test\obj\Debug\Test.exe
+C:\Nova pasta\Test\Test\obj\Debug\Test.pdb
+C:\Nova pasta\Test\Test\bin\Debug\Test.exe
+C:\Nova pasta\Test\Test\bin\Debug\Test.pdb
+C:\Nova pasta\Test\Test\bin\Debug\AcroniControls.dll
+C:\Nova pasta\Test\Test\bin\Debug\AcroniControls.pdb
+C:\Nova pasta\Test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Nova pasta\Test\Test\obj\Debug\Test.Form1.resources
+C:\Nova pasta\Test\Test\obj\Debug\Test.Properties.Resources.resources
+C:\Nova pasta\Test\Test\obj\Debug\Test.csproj.GenerateResource.Cache
