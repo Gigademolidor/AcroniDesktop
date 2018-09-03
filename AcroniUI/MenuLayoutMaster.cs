@@ -65,7 +65,13 @@ namespace AcroniUI
                 return null;
             }
         }
+
+
         #endregion
 
+        private void btnAbrirGaleria_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

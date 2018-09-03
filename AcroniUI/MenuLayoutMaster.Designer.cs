@@ -50,7 +50,7 @@
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.panel1.Controls.Add(this.btnAbrirGaleria);
@@ -74,7 +74,7 @@
             this.btnAbrirGaleria.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAbrirGaleria.BackgroundImage")));
             this.btnAbrirGaleria.ButtonText = "Minha galeria";
             this.btnAbrirGaleria.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAbrirGaleria.Font = new System.Drawing.Font("Open Sans", 15.25F);
+            this.btnAbrirGaleria.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.btnAbrirGaleria.ForeColor = System.Drawing.Color.White;
             this.btnAbrirGaleria.IdleBorderThickness = 2;
             this.btnAbrirGaleria.IdleCornerRadius = 2;
@@ -87,6 +87,7 @@
             this.btnAbrirGaleria.Size = new System.Drawing.Size(350, 60);
             this.btnAbrirGaleria.TabIndex = 8;
             this.btnAbrirGaleria.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAbrirGaleria.Click += new System.EventHandler(this.btnAbrirGaleria_Click);
             // 
             // btnBaixarTeclado
             // 
@@ -99,7 +100,7 @@
             this.btnBaixarTeclado.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBaixarTeclado.BackgroundImage")));
             this.btnBaixarTeclado.ButtonText = "Baixar teclado";
             this.btnBaixarTeclado.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBaixarTeclado.Font = new System.Drawing.Font("Open Sans", 15.25F);
+            this.btnBaixarTeclado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.btnBaixarTeclado.ForeColor = System.Drawing.Color.White;
             this.btnBaixarTeclado.IdleBorderThickness = 2;
             this.btnBaixarTeclado.IdleCornerRadius = 2;
@@ -124,7 +125,7 @@
             this.btnAbrirSelecaoDeTeclado.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAbrirSelecaoDeTeclado.BackgroundImage")));
             this.btnAbrirSelecaoDeTeclado.ButtonText = "Criar novo teclado";
             this.btnAbrirSelecaoDeTeclado.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAbrirSelecaoDeTeclado.Font = new System.Drawing.Font("Open Sans", 15.25F);
+            this.btnAbrirSelecaoDeTeclado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.btnAbrirSelecaoDeTeclado.ForeColor = System.Drawing.Color.White;
             this.btnAbrirSelecaoDeTeclado.IdleBorderThickness = 2;
             this.btnAbrirSelecaoDeTeclado.IdleCornerRadius = 2;
@@ -171,11 +172,11 @@
             // lblNomeUsuario
             // 
             this.lblNomeUsuario.AutoSize = true;
-            this.lblNomeUsuario.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomeUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNomeUsuario.ForeColor = System.Drawing.Color.White;
             this.lblNomeUsuario.Location = new System.Drawing.Point(281, 50);
             this.lblNomeUsuario.Name = "lblNomeUsuario";
-            this.lblNomeUsuario.Size = new System.Drawing.Size(61, 22);
+            this.lblNomeUsuario.Size = new System.Drawing.Size(60, 20);
             this.lblNomeUsuario.TabIndex = 3;
             this.lblNomeUsuario.Text = "Vindo!";
             // 
@@ -200,7 +201,7 @@
             this.btnDesconectar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDesconectar.BackgroundImage")));
             this.btnDesconectar.ButtonText = "Desconectar";
             this.btnDesconectar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDesconectar.Font = new System.Drawing.Font("Open Sans", 12.25F);
+            this.btnDesconectar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
             this.btnDesconectar.ForeColor = System.Drawing.Color.White;
             this.btnDesconectar.IdleBorderThickness = 2;
             this.btnDesconectar.IdleCornerRadius = 2;
@@ -217,21 +218,21 @@
             // lblBemVindo
             // 
             this.lblBemVindo.AutoSize = true;
-            this.lblBemVindo.Font = new System.Drawing.Font("Open Sans", 12.25F);
+            this.lblBemVindo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
             this.lblBemVindo.ForeColor = System.Drawing.Color.White;
             this.lblBemVindo.Location = new System.Drawing.Point(187, 50);
             this.lblBemVindo.Name = "lblBemVindo";
-            this.lblBemVindo.Size = new System.Drawing.Size(103, 23);
+            this.lblBemVindo.Size = new System.Drawing.Size(98, 20);
             this.lblBemVindo.TabIndex = 3;
             this.lblBemVindo.Text = "Bem-vindo, ";
             // 
-            // LayoutMasterComMenu
+            // MenuLayoutMaster
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.panel1);
-            this.Name = "LayoutMasterComMenu";
+            this.Name = "MenuLayoutMaster";
             this.Text = "LayoutMasterComMenu";
             this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.pnlSuperior, 0);

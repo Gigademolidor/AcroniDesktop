@@ -45,15 +45,16 @@
             // 
             // pnlSuperior
             // 
-            this.pnlSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.pnlSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(42)))), ((int)(((byte)(47)))));
             this.pnlSuperior.Controls.Add(this.btnMinimizar);
             this.pnlSuperior.Controls.Add(this.btnSair);
             this.pnlSuperior.Controls.Add(this.lblAcroni);
             this.pnlSuperior.Controls.Add(this.menuStrip1);
-            this.pnlSuperior.Location = new System.Drawing.Point(0, -1);
+            this.pnlSuperior.Location = new System.Drawing.Point(-1, -1);
             this.pnlSuperior.Name = "pnlSuperior";
-            this.pnlSuperior.Size = new System.Drawing.Size(1280, 50);
+            this.pnlSuperior.Size = new System.Drawing.Size(1285, 40);
             this.pnlSuperior.TabIndex = 11;
+            this.pnlSuperior.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlSuperior_Paint);
             // 
             // btnMinimizar
             // 
@@ -92,25 +93,25 @@
             // lblAcroni
             // 
             this.lblAcroni.AutoSize = true;
-            this.lblAcroni.Font = new System.Drawing.Font("Open Sans ExtraBold", 20.25F, System.Drawing.FontStyle.Bold);
+            this.lblAcroni.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
             this.lblAcroni.ForeColor = System.Drawing.Color.White;
-            this.lblAcroni.Location = new System.Drawing.Point(12, 6);
+            this.lblAcroni.Location = new System.Drawing.Point(9, 7);
             this.lblAcroni.Name = "lblAcroni";
-            this.lblAcroni.Size = new System.Drawing.Size(109, 37);
+            this.lblAcroni.Size = new System.Drawing.Size(80, 26);
             this.lblAcroni.TabIndex = 2;
             this.lblAcroni.Text = "Acroni";
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(42)))), ((int)(((byte)(47)))));
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 15.25F);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.arquivoToolStripMenuItem,
             this.ajudaToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(146, 9);
+            this.menuStrip1.Location = new System.Drawing.Point(95, 7);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(195, 32);
+            this.menuStrip1.Size = new System.Drawing.Size(154, 28);
             this.menuStrip1.TabIndex = 12;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -119,10 +120,10 @@
             this.arquivoToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.arquivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.faleConoscoToolStripMenuItem});
-            this.arquivoToolStripMenuItem.Font = new System.Drawing.Font("Open Sans", 13.25F);
+            this.arquivoToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.arquivoToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
-            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(87, 28);
+            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.arquivoToolStripMenuItem.Text = "Arquivo";
             // 
             // faleConoscoToolStripMenuItem
@@ -131,22 +132,23 @@
             this.faleConoscoToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.faleConoscoToolStripMenuItem.Margin = new System.Windows.Forms.Padding(15);
             this.faleConoscoToolStripMenuItem.Name = "faleConoscoToolStripMenuItem";
-            this.faleConoscoToolStripMenuItem.Size = new System.Drawing.Size(192, 28);
+            this.faleConoscoToolStripMenuItem.Size = new System.Drawing.Size(176, 24);
             this.faleConoscoToolStripMenuItem.Text = "Fale Conosco";
             // 
             // ajudaToolStripMenuItem
             // 
-            this.ajudaToolStripMenuItem.Font = new System.Drawing.Font("Open Sans", 13.25F);
+            this.ajudaToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.ajudaToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.ajudaToolStripMenuItem.Margin = new System.Windows.Forms.Padding(30, 0, 0, 0);
+            this.ajudaToolStripMenuItem.Margin = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.ajudaToolStripMenuItem.Name = "ajudaToolStripMenuItem";
-            this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(70, 28);
+            this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(62, 24);
             this.ajudaToolStripMenuItem.Text = "Ajuda";
             // 
             // Template
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(42)))), ((int)(((byte)(44)))));
             this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.pnlSuperior);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

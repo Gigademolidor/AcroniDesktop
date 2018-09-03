@@ -74,7 +74,19 @@ namespace AcroniUI
             Application.Exit();
         }
 
+
         #endregion
 
+        private void pnlSuperior_Paint(object sender, PaintEventArgs e)
+        {
+            Rectangle areaBorda = pnlSuperior.ClientRectangle;
+            Rectangle formBorda = this.ClientRectangle;
+            areaBorda.Width--;
+            areaBorda.Height--;
+            formBorda.Width--;
+            formBorda.Height--;
+            e.Graphics.DrawRectangle(new Pen(new SolidBrush(Color.FromArgb(38,39,41)),3), areaBorda);
+            e.Graphics.DrawRectangle(new Pen(new SolidBrush(Color.FromArgb(38, 39, 41)), 3), formBorda);
+        }
     }
 }
